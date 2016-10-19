@@ -27,7 +27,7 @@ public class MainActivity extends AppCompatActivity {
         if (!TextUtils.isEmpty(inputText)){
             edit.setText(inputText);
             edit.setSelection(inputText.length());
-            Toast.makeText(this,"Restoring succeeded",Toast.LENGTH_SHORT).show();//
+            Toast.makeText(this,"Restoring succeeded",Toast.LENGTH_SHORT).show();
         }
     }
     @Override
